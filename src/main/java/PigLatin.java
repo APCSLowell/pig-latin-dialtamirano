@@ -63,4 +63,5 @@ public class PigLatin {
 	    }
 
     }
+}
 }//end PigLatin class
