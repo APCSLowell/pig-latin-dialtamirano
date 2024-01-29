@@ -34,7 +34,7 @@ public class PigLatin {
 	for (int i=0; i<sWord.length(); i++){
    		 if (sWord.substring(i, i+1).equals("a") || sWord.substring(i, i+1).equals("e") 
    		 || sWord.substring(i, i+1).equals("i") || sWord.substring(i, i+1).equals("o") 
-  		  || sWord.substring(i, i+1).equals("u")){
+  		  || sWord.substring(i, i+1).equals("u"))
       return i;
     }
         return -1;
@@ -61,5 +61,6 @@ public class PigLatin {
 	    else {
 		return "ERROR!";
 	    }
+
     }
 }//end PigLatin class
